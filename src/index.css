@@ -1,0 +1,37 @@
+/* index.css */
+
+/* Import Tailwind base styles */
+@tailwind base;
+
+/* Import Tailwind component styles */
+@tailwind components;
+
+/* Import Tailwind utility styles */
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add custom styles for horizontal scrollbar */
+html {
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+::-webkit-scrollbar {
+  width: 1.2rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(224, 210, 169);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(53, 220, 20);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background-clip: content-box;
+}
